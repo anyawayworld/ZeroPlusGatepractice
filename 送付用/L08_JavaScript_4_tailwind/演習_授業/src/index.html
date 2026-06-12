@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Calendar App</title>
+    <meta name="description" content="" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/webclipicon -->
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="" />
+    <meta
+      property="og:url"
+      content="https://zero-plus.io/lesson/ogp/hp_ogp.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta
+      property="og:image"
+      content="https://zero-plus.io/lesson/ogp/hp_ogp.jpg"
+    />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="" />
+    <meta
+      name="twitter:image:src"
+      content="https://zero-plus.io/lesson/ogp/hp_ogp.jpg"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --font-noto-sans-jp: 'Noto Sans JP', sans-serif;
+
+        --font-size-2xs: 0.625rem;
+        --font-size-3xs: 0.5rem;
+      }
+    </style>
+
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="font-noto-sans-jp">
+    <div class="h-dvh flex flex-col">
+      <header class="bg-teal-500 flex justify-between items-center py-5 px-4">
+        <div class="flex items-center gap-3">
+          <button id="js-prev-btn" class="text-slate-50">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 19.5 8.25 12l7.5-7.5"
+              />
+            </svg>
+          </button>
+
+          <h1 id="js-date-display" class="text-slate-50 text-2xl font-bold">
+            2024年1月
+          </h1>
+
+          <button id="js-next-btn" class="text-slate-50">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-5"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <button id="js-open-add-event-modal" class="text-slate-50">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-8"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+            />
+          </svg>
+        </button>
+      </header>
+
+      <div id="js-calendar-display" class="flex-grow flex flex-col"></div>
+    </div>
+
+    <dialog id="js-add-event-modal" class="modal">
+      <div class="modal-box max-w-md">
+        <form method="dialog">
+          <h3 class="text-2xl font-bold">予定の追加</h3>
+          <input
+            type="text"
+            placeholder="予定タイトル"
+            id="js-add-event-title"
+            class="input w-full mt-2"
+          />
+
+          <div class="mt-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+
+            <input
+              type="date"
+              id="js-add-event-date"
+              class="input w-full mt-2"
+            />
+
+            <div class="flex gap-2 items-center mt-3">
+              <select class="select w-full js-time-select"></select>
+              <span>-</span>
+              <select class="select w-full js-time-select"></select>
+            </div>
+          </div>
+
+          <div class="modal-action mt-4">
+            <button class="btn btn-neutral text-white">取り消し</button>
+            <button id="js-add-event-btn" class="btn btn-primary text-white">
+              追加
+            </button>
+          </div>
+        </form>
+      </div>
+    </dialog>
+
+    <dialog id="js-edit-event-modal" class="modal">
+      <div class="modal-box max-w-md">
+        <form method="dialog">
+          <h3 class="text-2xl font-bold">予定の編集・削除</h3>
+          <input
+            type="text"
+            placeholder="予定タイトル"
+            id="js-edit-event-title"
+            class="input w-full mt-2"
+          />
+
+          <div class="mt-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+              />
+            </svg>
+
+            <input
+              type="date"
+              id="js-edit-event-date"
+              class="input w-full mt-2"
+            />
+
+            <div class="flex gap-2 items-center mt-3">
+              <select class="select w-full js-time-select"></select>
+              <span>-</span>
+              <select class="select w-full js-time-select"></select>
+            </div>
+          </div>
+
+          <div class="modal-action mt-4">
+            <button
+              id="js-delete-event-btn"
+              class="btn btn-secondary text-white"
+            >
+              削除
+            </button>
+            <button id="js-edit-event-btn" class="btn btn-primary text-white">
+              編集
+            </button>
+          </div>
+        </form>
+      </div>
+    </dialog>
+  </body>
+</html>

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>【東京】私のおすすめのカフェ10選！|ZeroPlus Blog</title>
+    <meta
+      name="description"
+      content="親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。別段深い理由でもない。新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、この次は抜かさずに飛んで見せますと答えた。（青空文庫より）"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <p class="logo-ttl">
+          <a href="index.html" class="logo-link"
+            >ZeroPlus <span class="logo-highlight">B</span>log</a
+          >
+        </p>
+      </div>
+      <!-- header-content -->
+
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a href="index.html" class="header-nav-link"> ホーム </a>
+          </li>
+          <!-- header-nav-list -->
+
+          <li class="header-nav-item">
+            <a href="category.html" class="header-nav-link"> カフェ </a>
+          </li>
+          <!-- header-nav-list -->
+
+          <li class="header-nav-item">
+            <a href="" class="header-nav-link"> 旅行 </a>
+          </li>
+          <!-- header-nav-list -->
+
+          <li class="header-nav-item">
+            <a href="index.html" class="header-nav-link"> 写真 </a>
+          </li>
+          <!-- header-nav-list -->
+
+          <li class="header-nav-item">
+            <a href="index.html" class="header-nav-link"> 日記 </a>
+          </li>
+          <!-- header-nav-list -->
+
+          <li class="header-nav-item">
+            <a href="index.html" class="header-nav-link"> DIY </a>
+          </li>
+          <!-- header-nav-list -->
+
+          <li class="header-nav-item">
+            <a href="index.html" class="header-nav-link">
+              <p class="header-nav-ttl">お問い合わせ</p>
+            </a>
+          </li>
+          <!-- header-nav-list -->
+        </ul>
+        <!-- header-nav-content -->
+      </nav>
+      <!-- header-nav -->
+    </header>
+
+    <main>
+      <div class="post-wrap">
+        <div class="post-inner">
+          <div class="post-container __single">
+            <div class="psot-category __single">
+              <div class="post-content __single">
+                <div class="post-txt-content __single">
+                  <p class="post-txt __single">
+                    【東京】私のおすすめのカフェ10選！
+                  </p>
+                </div>
+                <!-- post-txt-content -->
+
+                <div class="post-mata __single">
+                  <time datetime="0000-00-00" class="post-time"
+                    >0000.00.00</time
+                  >
+                  <span class="post-tag">カフェ</span>
+                </div>
+                <!-- post-mata -->
+              </div>
+              <!-- post-content -->
+
+              <div class="post-img-content __single">
+                <img
+                  width="688"
+                  height="516"
+                  src="img/thumb_article.jpg"
+                  alt="thumb_article"
+                  class="post-img"
+                />
+              </div>
+              <!-- post-img-content -->
+
+              <p class="post-report-txt">
+                親譲りの無鉄砲で小供の時から損ばかりしている。
+                小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
+                なぜそんな無闇をしたと聞く人があるかも知れぬ。
+                別段深い理由でもない。
+                新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
+                弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、
+                この次は抜かさずに飛んで見せますと答えた。（青空文庫より）
+              </p>
+              <!-- post-report-txt -->
+
+              <div class="post-roport-content">
+                <p class="post-roport-content-ttl single-wrap">池袋</p>
+                <!-- post-roport-content-ttl -->
+
+                <p class="post-roport-subttl single-wrap">Cafe ZeroPlus</p>
+                <!-- post-roport-subttl -->
+
+                <p class="post-report-txt single-wrap">
+                  親譲りの無鉄砲で小供の時から損ばかりしている。
+                  小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
+                  なぜそんな無闇をしたと聞く人があるかも知れぬ。
+                  別段深い理由でもない。
+                  新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
+                  弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、
+                  この次は抜かさずに飛んで見せますと答えた。（青空文庫より）
+                </p>
+                <!-- post-report-txt -->
+
+                <p class="post-report-txt single-wrap">
+                  親譲りの無鉄砲で小供の時から損ばかりしている。
+                  小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
+                  なぜそんな無闇をしたと聞く人があるかも知れぬ。
+                  別段深い理由でもない。
+                  新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
+                  弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、
+                  この次は抜かさずに飛んで見せますと答えた。（青空文庫より）
+                </p>
+                <!-- post-report-txt -->
+
+                <p class="post-roport-subttl single-wrap">Cafe ZeroPlus</p>
+                <!-- post-roport-subttl -->
+
+                <p class="post-report-txt single-wrap">
+                  親譲りの無鉄砲で小供の時から損ばかりしている。
+                  小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
+                  なぜそんな無闇をしたと聞く人があるかも知れぬ。
+                  別段深い理由でもない。
+                  新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
+                  弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、
+                  この次は抜かさずに飛んで見せますと答えた。（青空文庫より）
+                </p>
+                <!-- post-report-txt -->
+
+                <p class="post-report-txt single-wrap">
+                  親譲りの無鉄砲で小供の時から損ばかりしている。
+                  小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。
+                  なぜそんな無闇をしたと聞く人があるかも知れぬ。
+                  別段深い理由でもない。
+                  新築の二階から首を出していたら、同級生の一人が冗談に、いくら威張っても、そこから飛び降りる事は出来まい。
+                  弱虫やーい。と囃したからである。小使に負ぶさって帰って来た時、おやじが大きな眼をして二階ぐらいから飛び降りて腰を抜かす奴があるかと云ったから、
+                  この次は抜かさずに飛んで見せますと答えた。（青空文庫より）
+                </p>
+                <!-- post-report-txt -->
+
+                <div class="psot-category-btn-content">
+                  <a href="" class="psot-category-btn-link">
+                    カテゴリ一覧へ戻る
+                  </a>
+                  <!-- psot-category-btn-link -->
+                </div>
+                <!-- psot-category-btn-content -->
+              </div>
+              <!-- post-roport-content -->
+
+              <p class="post-roport-content-ttl">カテゴリー</p>
+
+              <div class="post-roport-category-container">
+                <ul class="post-roport-category-list">
+                  <li class="post-roport-category-item">
+                    <a href="" class="post-roport-category-link">
+                      <div class="post-roport-category-content">
+                        <p class="post-roport-category-ttl">旅行</p>
+                        <span class="post-roport-category-tag"> 10 </span>
+                      </div>
+                      <!-- post-roport-category-content -->
+                    </a>
+                    <!-- post-roport-category-link -->
+                  </li>
+                  <!-- post-roport-category-item -->
+
+                  <li class="post-roport-category-item">
+                    <a href="" class="post-roport-category-link">
+                      <div class="post-roport-category-content">
+                        <p class="post-roport-category-ttl">カフェ</p>
+                        <span class="post-roport-category-tag"> 10 </span>
+                      </div>
+                      <!-- post-roport-category-content -->
+                    </a>
+                    <!-- post-roport-category-link -->
+                  </li>
+                  <!-- post-roport-category-item -->
+
+                  <li class="post-roport-category-item">
+                    <a href="" class="post-roport-category-link">
+                      <div class="post-roport-category-content">
+                        <p class="post-roport-category-ttl">写真</p>
+                        <span class="post-roport-category-tag"> 10 </span>
+                      </div>
+                      <!-- post-roport-category-content -->
+                    </a>
+                    <!-- post-roport-category-link -->
+                  </li>
+                  <!-- post-roport-category-item -->
+
+                  <li class="post-roport-category-item">
+                    <a href="" class="post-roport-category-link">
+                      <div class="post-roport-category-content">
+                        <p class="post-roport-category-ttl">日記</p>
+                        <span class="post-roport-category-tag"> 10 </span>
+                      </div>
+                      <!-- post-roport-category-content -->
+                    </a>
+                    <!-- post-roport-category-link -->
+                  </li>
+                  <!-- post-roport-category-item -->
+
+                  <li class="post-roport-category-item">
+                    <a href="" class="post-roport-category-link">
+                      <div class="post-roport-category-content">
+                        <p class="post-roport-category-ttl">DIY</p>
+                        <span class="post-roport-category-tag"> 10 </span>
+                      </div>
+                      <!-- post-roport-category-content -->
+                    </a>
+                    <!-- post-roport-category-link -->
+                  </li>
+                  <!-- post-roport-category-item -->
+                </ul>
+                <!-- post-roport-category-list -->
+              </div>
+              <!-- post-roport-category-container -->
+
+              
+            </div>
+            <!-- psot-category -->
+          </div>
+          <!-- post-container -->
+
+          <div class="post-report-praise-container">
+            <p class="post-roport-content-ttl">おすすめ記事</p>
+    
+            <div class="post-container __single">
+              <article class="post-box __single">
+                <a href="category.html" class="post-link">
+                  <div class="post-report-praise-content">
+                    <img
+                      width="688"
+                      height="516"
+                      src="img/thumb_article.jpg"
+                      alt="thumb_article"
+                      class="post-img __single"
+                    />
+                    <div class="post-content __single">
+                        <p class="post-txt __single-s">
+                          【東京】私のおすすめのカフェ10選！
+                        </p>
+                    </div>
+                    <!-- post-content -->
+                  </div>
+                </a>
+                <!-- post-link -->
+              </article>
+              <!-- post-box -->
+    
+              <article class="post-box __single">
+                <a href="category.html" class="post-link">
+                  <div class="post-report-praise-content">
+                    <img
+                      width="688"
+                      height="516"
+                      src="img/thumb_article.jpg"
+                      alt="thumb_article"
+                      class="post-img __single"
+                    />
+                    <div class="post-content __single">
+                        <p class="post-txt __single-s">
+                          【東京】私のおすすめのカフェ10選！
+                        </p>
+                    </div>
+                    <!-- post-content -->
+                  </div>
+                </a>
+                <!-- post-link -->
+              </article>
+              <!-- post-box -->
+    
+              <article class="post-box __single">
+                <a href="category.html" class="post-link">
+                  <div class="post-report-praise-content">
+                    <img
+                      width="688"
+                      height="516"
+                      src="img/thumb_article.jpg"
+                      alt="thumb_article"
+                      class="post-img __single"
+                    />
+                    <div class="post-content __single">
+                        <p class="post-txt __single-s">
+                          【東京】私のおすすめのカフェ10選！
+                        </p>
+                    </div>
+                    <!-- post-content -->
+                  </div>
+                </a>
+                <!-- post-link -->
+              </article>
+              <!-- post-box -->
+    
+              <article class="post-box __single">
+                <a href="category.html" class="post-link">
+                  <div class="post-report-praise-content">
+                    <img
+                      width="688"
+                      height="516"
+                      src="img/thumb_article.jpg"
+                      alt="thumb_article"
+                      class="post-img __single"
+                    />
+                    <div class="post-content __single">
+                        <p class="post-txt __single-s">
+                          【東京】私のおすすめのカフェ10選！
+                        </p>
+                    </div>
+                    <!-- post-content -->
+                  </div>
+                </a>
+                <!-- post-link -->
+              </article>
+              <!-- post-box -->
+              
+              <article class="single-ad-content">
+                <a href="" class="single-ad-link">
+                  <img src="img/ad.png" alt="" class="single-ad-img">
+                </a>
+    
+              </article>
+              <!-- single-ad-content -->
+            </div>
+            <!-- post-container -->
+          </div>
+          <!-- post-report-praise-container -->
+
+
+        </div>
+        <!-- post-inner -->
+
+      </div>
+      <!-- post-wrap -->
+
+
+     
+
+
+
+
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="logo-ttl">
+          <a href="index.html" class="logo-link">
+            ZeroPlus <span class="logo-highlight">B</span>log
+          </a>
+        </p>
+        <div class="footer-icon-box">
+          <ul class="footer-icon-list">
+            <li class="footer-icon-item">
+              <a href="twitter.html" class="icon-link">
+                <img
+                  src="img/icon_twitter.svg"
+                  alt="twitter"
+                  class="icon-img"
+                />
+              </a>
+            </li>
+            <!-- footer-icon-item -->
+            <li class="footer-icon-item">
+              <a href="facebook.html" class="icon-link">
+                <img
+                  src="img/icon_facebook.svg"
+                  alt="facebook"
+                  class="icon-img"
+                />
+              </a>
+            </li>
+            <!-- footer-icon-item -->
+            <li class="footer-icon-item">
+              <a href="email.html" class="icon-link">
+                <img src="img/icon_email.svg" alt="email" class="icon-img" />
+              </a>
+            </li>
+            <!-- footer-icon-item -->
+          </ul>
+          <!-- footer-icon-list -->
+        </div>
+        <!-- footer-icon-box -->
+
+        <small class="footer-copy"> &copy; 2018 sample inc. </small>
+      </div>
+      <!-- footer-content -->
+    </footer>
+  </body>
+</html>

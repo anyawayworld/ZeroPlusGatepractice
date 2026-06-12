@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ToDo App</title>
+    <meta name="description" content="" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/webclipicon -->
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="" />
+    <meta
+      property="og:url"
+      content="https://zero-plus.io/lesson/ogp/hp_ogp.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta
+      property="og:image"
+      content="https://zero-plus.io/lesson/ogp/hp_ogp.jpg"
+    />
+    <meta property="og:locale" content="ja_JP" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="" />
+    <meta
+      name="twitter:image:src"
+      content="https://zero-plus.io/lesson/ogp/hp_ogp.jpg"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- daisyUIの読み込み -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Tailwind CSSの読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- カスタムスタイルの追加 -->
+    <style type="text/tailwindcss">
+      @theme {
+        --font-noto-sans-jp: 'Noto Sans JP', sans-serif;
+      }
+    </style>
+
+    <!-- JavaScript -->
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="font-noto-sans-jp">
+    <header class="bg-violet-400 py-4">
+      <h1 class="text-3xl text-white font-bold text-center">To-Do App</h1>
+    </header>
+
+    <div class="mt-5 md:mt-14 mx-auto px-5 max-w-4xl lg:px-0">
+      <div role="tablist" class="tabs tabs-lift tabs-lg grid grid-cols-2">
+        <button role="tab" id="js-doing-btn" class="tab tab-active">
+          やること
+        </button>
+        <button role="tab" id="js-done-btn" class="tab">完了</button>
+      </div>
+
+      <div class="max-w-screen-sm mx-auto pt-5 md:pt-10">
+        <!-- 未完了のパネル -->
+        <div id="js-doing-display">
+          <div class="flex gap-2">
+            <input
+              type="text"
+              placeholder="やること"
+              id="js-task-title"
+              class="input input-sm md:input-lg w-full"
+            />
+            <button
+              id="js-add-task-btn"
+              class="btn btn-sm md:btn-lg btn-primary"
+            >
+              追加
+            </button>
+          </div>
+
+          <div id="js-doing-tasks" class="mt-6 grid gap-3 md:mt-10"></div>
+        </div>
+
+        <!-- 完了のパネル -->
+        <div id="js-done-display" style="display: none">
+          <div id="js-done-tasks" class="grid gap-3"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
