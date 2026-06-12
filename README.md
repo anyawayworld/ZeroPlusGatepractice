@@ -1,2 +1,3 @@
-# ZeroPlusGatepractice
-ZeroPlus Gateのスクールで作成した制作物です。
+ZeroPlus Gateで学習した内容をもとに作成したWeb制作課題です。
+HTML/CSSによるレイアウト作成に加え、JavaScriptを使用した簡単な動きの実装や、レスポンシブ対応の練習として制作しました。
+
